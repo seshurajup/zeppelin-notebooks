@@ -1,0 +1,69 @@
+{
+  "paragraphs": [
+    {
+      "text": "%python\nimport sys\nprint(sys.version)",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-09 23:34:04.582",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "3.7.0 (default, Jul 23 2018, 20:22:55) \n[Clang 9.1.0 (clang-902.0.39.2)]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533837540842_-1268917093",
+      "id": "20180809-232900_1809713901",
+      "dateCreated": "2018-08-09 23:29:00.842",
+      "dateStarted": "2018-08-09 23:34:04.593",
+      "dateFinished": "2018-08-09 23:34:07.741",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "user": "anonymous",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1533837583847_-814228960",
+      "id": "20180809-232943_2017661209",
+      "dateCreated": "2018-08-09 23:29:43.847",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "python/basics",
+  "id": "2DPN2ADJF",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "python:shared_process": [],
+    "sh:shared_process": [],
+    "spark:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
