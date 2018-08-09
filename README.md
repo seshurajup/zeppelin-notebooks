@@ -98,3 +98,10 @@ zeppelin.pyspark.python = /usr/local/bin/python3
 ```sh
 elasticsearch.port = 9200
 ```
+
+### Start & Stop services
+```sh
+chmod +x services.sh
+sh services.sh start
+sh services.sh stop
+```
