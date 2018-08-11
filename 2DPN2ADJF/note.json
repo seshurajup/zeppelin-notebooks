@@ -1,9 +1,168 @@
 {
   "paragraphs": [
     {
-      "text": "%python\nimport sys\nprint(sys.version)",
+      "text": "%md\n### [Python Essential Training Course](https://www.lynda.com/Python-tutorials/Python-Essential-Training/614299-2.html)\n* object-oriented scripted langues\n* Everything is an object",
       "user": "anonymous",
-      "dateUpdated": "2018-08-09 23:34:04.582",
+      "dateUpdated": "2018-08-11 16:49:48.095",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003e\u003ca href\u003d\"https://www.lynda.com/Python-tutorials/Python-Essential-Training/614299-2.html\"\u003ePython Essential Training Course\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n  \u003cli\u003eobject-oriented scripted langues\u003c/li\u003e\n  \u003cli\u003eEverything is an object\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533964535149_-1843889810",
+      "id": "20180811-104535_216122948",
+      "dateCreated": "2018-08-11 10:45:35.149",
+      "dateStarted": "2018-08-11 16:49:48.118",
+      "dateFinished": "2018-08-11 16:49:48.131",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n#### Hello, World. Example",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 16:49:48.221",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch4\u003eHello, World. Example\u003c/h4\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533967539709_-1760508145",
+      "id": "20180811-113539_788505354",
+      "dateCreated": "2018-08-11 11:35:39.709",
+      "dateStarted": "2018-08-11 16:49:48.240",
+      "dateFinished": "2018-08-11 16:49:48.243",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\n# Hello World example\nprint(\"Hello, World.\")",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 16:49:48.340",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "completionKey": "TAB"
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Hello, World.\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533966677608_-1696709681",
+      "id": "20180811-112117_1068044999",
+      "dateCreated": "2018-08-11 11:21:17.608",
+      "dateStarted": "2018-08-11 16:49:48.365",
+      "dateFinished": "2018-08-11 16:49:48.380",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n#### Python Version",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 16:49:48.464",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch4\u003ePython Version\u003c/h4\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533967478480_57173303",
+      "id": "20180811-113438_1069683870",
+      "dateCreated": "2018-08-11 11:34:38.480",
+      "dateStarted": "2018-08-11 16:49:48.492",
+      "dateFinished": "2018-08-11 16:49:48.496",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\n# Python version\nimport platform\nprint( \"We are using python version {}\".format(platform.python_version()) )\nprint(f\"We are using python version {platform.python_version()}\")",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 16:49:48.594",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -25,7 +184,7 @@
         "msg": [
           {
             "type": "TEXT",
-            "data": "3.7.0 (default, Jul 23 2018, 20:22:55) \n[Clang 9.1.0 (clang-902.0.39.2)]\n"
+            "data": "We are using python version 3.7.0\nWe are using python version 3.7.0\n"
           }
         ]
       },
@@ -33,37 +192,591 @@
       "jobName": "paragraph_1533837540842_-1268917093",
       "id": "20180809-232900_1809713901",
       "dateCreated": "2018-08-09 23:29:00.842",
-      "dateStarted": "2018-08-09 23:34:04.593",
-      "dateFinished": "2018-08-09 23:34:07.741",
+      "dateStarted": "2018-08-11 16:49:48.617",
+      "dateFinished": "2018-08-11 16:49:48.627",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
+      "text": "%python\n# import platform package\nimport platform\n\n# show_platform_version function definition\ndef show_platform_version():\n    print(\"We are using platform version {}\".format(platform.python_version()) )\n\n# main function definition\ndef main():\n    show_platform_version()\n\nprint(\"File name : {}\".format(__name__) )   \n\n# main function to execute when this python execute\nif __name__ \u003d\u003d \u0027builtins\u0027 : main()",
       "user": "anonymous",
+      "dateUpdated": "2018-08-11 16:49:48.717",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "File name : builtins\nWe are using platform version 3.7.0\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533967176670_330496155",
+      "id": "20180811-112936_1648407647",
+      "dateCreated": "2018-08-11 11:29:36.670",
+      "dateStarted": "2018-08-11 16:49:48.737",
+      "dateFinished": "2018-08-11 16:49:48.745",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n#### Statements, Conditions \u0026 Loops\n* \\+ - * /(division) //(integer division) %(modulo) **(exponent) \n* \u0026 | ^ \u003c\u003c \u003e\u003e\n* \u003d\u003d !\u003d \u003c \u003e \u003c\u003d \u003e\u003d \n* and or not\n* in , not in ( checking element in set ) , is, is not ( same object or not )",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 16:49:48.840",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch4\u003eStatements, Conditions \u0026amp; Loops\u003c/h4\u003e\n\u003cul\u003e\n  \u003cli\u003e+ - * /(division) //(integer division) %(modulo) **(exponent)\n\u003c/li\u003e\n  \u003cli\u003e\u0026amp; | ^ \u0026lt;\u0026lt; \u0026gt;\u0026gt;\u003c/li\u003e\n  \u003cli\u003e\u003d\u003d !\u003d \u0026lt; \u0026gt; \u0026lt;\u003d \u0026gt;\u003d\u003c/li\u003e\n  \u003cli\u003eand or not\u003c/li\u003e\n  \u003cli\u003ein , not in ( checking element in set ) , is, is not ( same object or not )\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533837583847_-814228960",
+      "id": "20180809-232943_2017661209",
+      "dateCreated": "2018-08-09 23:29:43.847",
+      "dateStarted": "2018-08-11 16:49:48.860",
+      "dateFinished": "2018-08-11 16:49:48.867",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\n# assignment\nassignment \u003d 1\nprint(\"Value of assignment is\",assignment)\n# if elfi else \nif assignment \u003d\u003d 1: # if case\n    print(\"IF case: Assignment value is 1\")\nelif assignment \u003d\u003d 2: # elif case\n    print(\"ElIF case: Assignment value is 2\")\nelse: # else case\n    print(\"Else case: Assignment value is neither 1 or 2\")\n    \nif assignment \u003d\u003d 1: print (\"Inline IF case: Assignment value is {}\".format(assignment))\n\nifassignment \u003d \u0027 If Case Assignment \u0027 if assignment \u003d\u003d 1 else \u0027 Else Case Assignment\u0027\nprint( ifassignment )\n\n# loop controls with continue, break statements\n# while loop\nindex \u003d 0\nwhile( index \u003c 3 ):\n    print(\"While loop {}\".format(index), end\u003d\u0027 \u0027, flush\u003dTrue)\n    index +\u003d 1\nelse: # while loop else runs only if while loop ends normal instead to end with break\n    print(\" While loop ends\")\n# for loop\nfor index in range(0,3):\n    print(\"For loop {}\".format(index), end\u003d\u0027, \u0027, flush\u003dTrue)\nelse:\n    print(\"For loop ends\")",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 16:49:48.961",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Value of assignment is 1\nIF case: Assignment value is 1\nInline IF case: Assignment value is 1\n If Case Assignment \nWhile loop 0 While loop 1 While loop 2  While loop ends\nFor loop 0, For loop 1, For loop 2, For loop ends\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533967520994_1938440746",
+      "id": "20180811-113520_1003567865",
+      "dateCreated": "2018-08-11 11:35:20.994",
+      "dateStarted": "2018-08-11 16:49:48.977",
+      "dateFinished": "2018-08-11 16:49:48.992",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n#### Scope\n* Blocks do not define scope \n* Functions, objects and modules define scope",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 16:49:49.081",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch4\u003eScope\u003c/h4\u003e\n\u003cul\u003e\n  \u003cli\u003eBlocks do not define scope\u003c/li\u003e\n  \u003cli\u003eFunctions, objects and modules define scope\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533968038942_1213756343",
+      "id": "20180811-114358_1829305750",
+      "dateCreated": "2018-08-11 11:43:58.942",
+      "dateStarted": "2018-08-11 16:49:49.103",
+      "dateFinished": "2018-08-11 16:49:49.107",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\nx \u003d 1\nif x \u003d\u003d 1:\n    y \u003d 2\n    print(\"x value is {}, y value is {}\".format(x,y))\n\nprint(\"x value is {}, y value is {}\".format(x,y))",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 16:49:49.205",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "x value is 1, y value is 2\nx value is 1, y value is 2\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533972413326_1168293580",
+      "id": "20180811-125653_437859706",
+      "dateCreated": "2018-08-11 12:56:53.326",
+      "dateStarted": "2018-08-11 16:49:49.228",
+      "dateFinished": "2018-08-11 16:49:49.236",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n#### Functions\n* All fuctions return value, default return value as \u0027None\u0027\n* if \\__name__ \u003d\u003d \u0027\\__main__\u0027 : main() \n* default values for parameters all at ending of function is good practice\n* function(*args) - variable arguments as list\n* function(**args) - variable arguments as dictionary",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 16:49:49.331",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch4\u003eFunctions\u003c/h4\u003e\n\u003cul\u003e\n  \u003cli\u003eAll fuctions return value, default return value as \u0026lsquo;None\u0026rsquo;\u003c/li\u003e\n  \u003cli\u003eif __name__ \u003d\u003d \u0026lsquo;__main__\u0026rsquo; : main()\u003c/li\u003e\n  \u003cli\u003edefault values for parameters all at ending of function is good practice\u003c/li\u003e\n  \u003cli\u003efunction(*args) - variable arguments as list\u003c/li\u003e\n  \u003cli\u003efunction(**args) - variable arguments as dictionary\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533973470694_-169850017",
+      "id": "20180811-131430_346802034",
+      "dateCreated": "2018-08-11 13:14:30.695",
+      "dateStarted": "2018-08-11 16:49:49.349",
+      "dateFinished": "2018-08-11 16:49:49.353",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\n\nglobal_varable \u003d 1\n# parameter2 have default value 2\ndef function_name(parameter1, parameter2 \u003d 2):\n    print(\"value of parameter1 {0} parameter2 {1}\".format(parameter1, parameter2) )\n\ndef function_name_list(*args):\n    global global_variable \u003d 2\n    if len(args):\n        for value in args:\n            print(f\"value {value}\",end\u003d\u0027 \u0027)\n\ndef function_name_dictionary(**keyword_arguments):\n    if len(keyword_arguments):\n        for key,value in keyword_arguments.items():\n            print(f\"key {key} value {value},\",end\u003d\u0027 \u0027)\n    return True\nfunction_name(1)\n\nfunction_name_list(1, 2, 3)\nlistValues \u003d [1, 2, 3]\nfunction_name_list(*listValues)\nprint()\n\ndictionaryValues1 \u003d {\"one\":1, \"two\":2}\ndictionaryValues2 \u003d dict(one\u003d\"1\",two\u003d\"2\") # both same\nfunction_name_dictionary(**dictionaryValues1)\nprint()\nfunction_name_dictionary(**dictionaryValues2)\n\n\ndef function1(parameterFunction):\n    def function2():\n        print(\"this is function 2 before\")\n        parameterFunction()\n        print(\"this is function 2 after\")\n    print(\"this is function 1\")\n    return function2\n    \n@function1 # is a decorator, which wraps this function3 send as function1\u0027s parameter.. when u run function3.. it will make function1 then it will run function3 as per logic in function1\ndef function3():\n    print(\u0027this is function 3\u0027);\n    \nx \u003d function1(function3)\nx()",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 16:49:49.451",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python",
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_python-4515216936022997706.py\", line 295, in \u003cmodule\u003e\n    code \u003d compile(\u0027\\n\u0027.join(final_code), \u0027\u003cstdin\u003e\u0027, \u0027exec\u0027, ast.PyCF_ONLY_AST, 1)\n  File \"\u003cstdin\u003e\", line 5\n    global global_variable \u003d 2\n                           ^\nSyntaxError: invalid syntax\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533973395384_1888307535",
+      "id": "20180811-131315_1410413818",
+      "dateCreated": "2018-08-11 13:13:15.384",
+      "dateStarted": "2018-08-11 16:49:49.467",
+      "dateFinished": "2018-08-11 16:49:49.477",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n#### Class\n* Constructor __init__(self,...)\n* First parameter of methods are \u0027self\u0027\n* private variables are difined as _variable",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 15:52:41.204",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch4\u003eClass\u003c/h4\u003e\n\u003cul\u003e\n  \u003cli\u003eConstructor \u003cstrong\u003einit\u003c/strong\u003e(self,\u0026hellip;)\u003c/li\u003e\n  \u003cli\u003eFirst parameter of methods are \u0026lsquo;self\u0026rsquo;\u003c/li\u003e\n  \u003cli\u003eprivate variables are difined as _variable\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533973443223_-1666242274",
+      "id": "20180811-131403_1259163812",
+      "dateCreated": "2018-08-11 13:14:03.223",
+      "dateStarted": "2018-08-11 15:52:41.205",
+      "dateFinished": "2018-08-11 15:52:41.209",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\n\nclass ClassName:\n    classvalue \u003d 2\n    parameter1 \u003d None\n    parameter2 \u003d None\n    def __init__(self, **keyword_arguments ): # constructor\n        self.parameter1 \u003d keyword_arguments[\"parameter1\"] if \u0027parameter1\u0027 in keyword_arguments else None\n        self.parameter2 \u003d keyword_arguments[\"parameter2\"]\n        print(\" constructor \")\n        \n    def methodName(self,parameter):\n        print(\"classvalue is {}, parameter value is {} from ClassName-\u003emethodName \".format(self.classvalue, parameter))\n\nclass otherClass(ClassName): # inherited class\n    def __init__(self,**keyword_arguments):\n        super().__init__(**keyword_arguments)\n    def methodName1():\n        print(\"one\")\n        \nclassInstance \u003d ClassName(parameter1\u003d1, parameter2\u003d2)\nclassInstance.methodName(1)",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 16:17:42.201",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": " constructor \nclassvalue is 2, parameter value is 1 from ClassName-\u003emethodName \n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533973744963_1848467671",
+      "id": "20180811-131904_1508549109",
+      "dateCreated": "2018-08-11 13:19:04.963",
+      "dateStarted": "2018-08-11 15:50:14.053",
+      "dateFinished": "2018-08-11 15:50:14.063",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n#### Types\n* int, float, double, str, bool, None are immutable.\n* use ``` for having multi-line string\n* sequences list [], range(start, end, increment), dictionary/set {} are mutable objects. in assignment, it is as pointer\n* tuple ()  are immutable",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 15:35:49.142",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch4\u003eTypes\u003c/h4\u003e\n\u003cul\u003e\n  \u003cli\u003eint, float, double, str, bool, None are immutable.\u003c/li\u003e\n  \u003cli\u003euse ``` for having multi-line string\u003c/li\u003e\n  \u003cli\u003esequences list [], range(start, end, increment), dictionary/set {} are mutable objects. in assignment, it is as pointer\u003c/li\u003e\n  \u003cli\u003etuple () are immutable\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533974095400_571695723",
+      "id": "20180811-132455_396586566",
+      "dateCreated": "2018-08-11 13:24:55.400",
+      "dateStarted": "2018-08-11 15:35:49.157",
+      "dateFinished": "2018-08-11 15:35:49.163",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\nlistValues \u003d [\"one\",\"two\"] # list\nrangeValues \u003d range(0,2) # range \ndictionaryValues \u003d { \u0027one\u0027: 1, \u0027two\u0027: 2 } # dictionary\n\nfor key, value in dictionaryValues.items():\n    print(f\"key : {key} value : {value}\" )\nfor key in dictionaryValues.keys():\n    print(f\"key : {key} value : {dictionaryValues[key]} id : {id(dictionaryValues[key])} Type: {type(key)} Is instance of string ? {isinstance(key,str)}\")",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 15:35:49.257",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "key : one value : 1\nkey : two value : 2\nkey : one value : 1 id : 4433518624 Type: \u003cclass \u0027str\u0027\u003e Is instance of string ? True\nkey : two value : 2 id : 4433518656 Type: \u003cclass \u0027str\u0027\u003e Is instance of string ? True\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533973860170_-345952266",
+      "id": "20180811-132100_1250766433",
+      "dateCreated": "2018-08-11 13:21:00.170",
+      "dateStarted": "2018-08-11 15:35:49.270",
+      "dateFinished": "2018-08-11 15:35:49.279",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n* List\n    * list.index(value), list.append(value), list.remove(value), pop() or pop(index) \n    * insert(index, value), del list[1:3], join(separator,list), len(list)\n    * sorted\n* dict\n    * dict.items(), dict.keys(), value in dict \n* set\n    *  a - b ( only a set ), a | b, a ^ b, a \u0026 b\n* list comprehension - [ function_of_x for x in list if condition_on_x ]",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 16:25:34.236",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cul\u003e\n  \u003cli\u003eList\n    \u003cul\u003e\n      \u003cli\u003elist.index(value), list.append(value), list.remove(value), pop() or pop(index)\u003c/li\u003e\n      \u003cli\u003einsert(index, value), del list[1:3], join(separator,list), len(list)\u003c/li\u003e\n      \u003cli\u003esorted\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003edict\n    \u003cul\u003e\n      \u003cli\u003edict.items(), dict.keys(), value in dict\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003eset\n    \u003cul\u003e\n      \u003cli\u003ea - b ( only a set ), a | b, a ^ b, a \u0026amp; b\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003elist comprehension - [ function_of_x for x in list if condition_on_x ]\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533975266129_756767018",
+      "id": "20180811-134426_468846659",
+      "dateCreated": "2018-08-11 13:44:26.129",
+      "dateStarted": "2018-08-11 16:25:34.236",
+      "dateFinished": "2018-08-11 16:25:34.241",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\nseq1 \u003d range(10)\nseq2 \u003d [x*2 for x in seq1 if x%2 \u003d\u003d 0]\ndic1 \u003d {x: x*2 for x in seq1 if x%2 !\u003d 0}\nprint( seq2 )\nprint( dic1 )",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 15:41:52.026",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python",
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "[0, 4, 8, 12, 16]\n{1: 2, 3: 6, 5: 10, 7: 14, 9: 18}\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533981305562_-494140893",
+      "id": "20180811-152505_1251303877",
+      "dateCreated": "2018-08-11 15:25:05.563",
+      "dateStarted": "2018-08-11 15:41:52.040",
+      "dateFinished": "2018-08-11 15:41:52.049",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n#### Exceptions\n* try: try block except Error as e: error block else: else block\n* raise TypeError(f\"custom error\")",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 16:25:09.588",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch4\u003eExceptions\u003c/h4\u003e\n\u003cul\u003e\n  \u003cli\u003etry: try block except Error as e: error block else: else block\u003c/li\u003e\n  \u003cli\u003eraise TypeError(f\u0026ldquo;custom error\u0026rdquo;)\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533982000287_-123924660",
+      "id": "20180811-153640_663465802",
+      "dateCreated": "2018-08-11 15:36:40.287",
+      "dateStarted": "2018-08-11 16:25:09.588",
+      "dateFinished": "2018-08-11 16:25:09.592",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 16:19:25.762",
       "config": {},
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1533837583847_-814228960",
-      "id": "20180809-232943_2017661209",
-      "dateCreated": "2018-08-09 23:29:43.847",
+      "jobName": "paragraph_1533984565762_1014515128",
+      "id": "20180811-161925_621702027",
+      "dateCreated": "2018-08-11 16:19:25.762",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
   ],
-  "name": "python/basics",
+  "name": "Python/001-Basics",
   "id": "2DPN2ADJF",
   "noteParams": {},
   "noteForms": {},
   "angularObjects": {
+    "md:shared_process": [],
     "python:shared_process": [],
-    "sh:shared_process": [],
     "spark:shared_process": []
   },
   "config": {
-    "isZeppelinNotebookCronEnable": false
+    "isZeppelinNotebookCronEnable": false,
+    "looknfeel": "default",
+    "personalizedMode": "false"
   },
   "info": {}
 }
