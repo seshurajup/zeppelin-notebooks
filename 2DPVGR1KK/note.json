@@ -1,0 +1,542 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md\n### [Numpy Data Science Essential Training](https://www.lynda.com/NumPy-tutorials/NumPy-Data-Science-Essential-Training/508873-2.html)",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 17:19:39.487",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003e\u003ca href\u003d\"https://www.lynda.com/NumPy-tutorials/NumPy-Data-Science-Essential-Training/508873-2.html\"\u003eNumpy Data Science Essential Training\u003c/a\u003e\u003c/h3\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533986522317_-648105503",
+      "id": "20180811-165202_1791294067",
+      "dateCreated": "2018-08-11 16:52:02.317",
+      "dateStarted": "2018-08-11 17:19:39.497",
+      "dateFinished": "2018-08-11 17:19:39.501",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n**Create NumPy Arrays**",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 17:19:39.600",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003e\u003cstrong\u003eCreate NumPy Arrays\u003c/strong\u003e\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533987309637_1877340464",
+      "id": "20180811-170509_761096769",
+      "dateCreated": "2018-08-11 17:05:09.637",
+      "dateStarted": "2018-08-11 17:19:39.608",
+      "dateFinished": "2018-08-11 17:19:39.611",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\nimport numpy as np\nprint(np.__version__)\n\nmy_list \u003d [-2, -1, 0, 1, 2]\nmy_array_from_list \u003d np.array(my_list)\nprint(my_array_from_list)\n\nprint(\"* python used as replication of list\")\nprint(my_list * 5) # astrik using as replication \n\nprint(\"* numpy used as multiplication on elements in list\")\nprint(my_array_from_list * 5)\n\nprint(my_array_from_list \u003e 0)\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 17:19:39.711",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "1.15.0\n[-2 -1  0  1  2]\n* python used as replication of list\n[-2, -1, 0, 1, 2, -2, -1, 0, 1, 2, -2, -1, 0, 1, 2, -2, -1, 0, 1, 2, -2, -1, 0, 1, 2]\n* numpy used as multiplication on elements in list\n[-10  -5   0   5  10]\n[False False False  True  True]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533986556328_1422120056",
+      "id": "20180811-165236_7498196",
+      "dateCreated": "2018-08-11 16:52:36.328",
+      "dateStarted": "2018-08-11 17:19:39.722",
+      "dateFinished": "2018-08-11 17:19:39.734",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\n# arange(start, stop, step)\nprint(\"---- arange ----\")\nprint( np.arange(0,10,2) ) #numpy arange as range function\nprint(f\" Array len  : {len(np.arange(0,10))}\")\nprint(f\" Array Size : {np.arange(0,10).size}\")\n\n# linspace(start, stop, num )\nprint(\"---- linspace ----\")\nprint( np.linspace(5,9,5) )\nprint( np.linspace(5,9,5, retstep\u003dTrue) )\n\n# zeros(num)\nprint(\"---- zerors/ones ----\")\nprint( np.zeros(5) )\nprint( np.ones(5) )\nprint( np.ones((2,2), dtype\u003d\u0027int64\u0027 ) )",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 17:19:39.824",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "---- arange ----\n[0 2 4 6 8]\n Array len  : 10\n Array Size : 10\n---- linspace ----\n[5. 6. 7. 8. 9.]\n(array([5., 6., 7., 8., 9.]), 1.0)\n---- zerors/ones ----\n[0. 0. 0. 0. 0.]\n[1. 1. 1. 1. 1.]\n[[1 1]\n [1 1]]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533986947715_690128157",
+      "id": "20180811-165907_485446452",
+      "dateCreated": "2018-08-11 16:59:07.715",
+      "dateStarted": "2018-08-11 17:19:39.833",
+      "dateFinished": "2018-08-11 17:19:39.848",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n**Index, Slice \u0026 Iterate**",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 17:19:48.177",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003e\u003cstrong\u003eIndex, Slice \u0026amp; Iterate\u003c/strong\u003e\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533987521645_-2130059309",
+      "id": "20180811-170841_1634974208",
+      "dateCreated": "2018-08-11 17:08:41.645",
+      "dateStarted": "2018-08-11 17:19:48.178",
+      "dateFinished": "2018-08-11 17:19:48.181",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\nmy_array \u003d np.arange(10)\nprint(my_array)\nprint(my_array[0]) # first element\nprint(my_array[-1]) # last element\n\nprint(f\"{\u0027-\u0027*10} functions {\u0027-\u0027*10}\")\nmy_array \u003d np.arange(10)\nprint(\"Shape {}\".format(my_array.shape))\nprint(\"Dimention {}\".format(my_array.ndim))\nprint(\"Elements {}\".format(my_array.size))",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 18:05:57.332",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python",
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "[0 1 2 3 4 5 6 7 8 9]\n0\n9\n---------- functions ----------\nShape (10,)\nDimention 1\nElements 10\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533988165640_585494816",
+      "id": "20180811-171925_562201387",
+      "dateCreated": "2018-08-11 17:19:25.640",
+      "dateStarted": "2018-08-11 18:05:57.338",
+      "dateFinished": "2018-08-11 18:05:57.347",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\nprint(f\"{\u0027-\u0027*10} convert single dimention to multi dimention array {\u0027-\u0027*10}\")\nmy_array \u003d np.arange(10)\nprint(my_array.reshape(2,5))\n\nprint(f\"{\u0027-\u0027*10} slice array {\u0027-\u0027*10}\")\nmy_array \u003d np.arange(10)\nprint(my_array[2:4])\n\nprint(f\"{\u0027-\u0027*10} filter {\u0027-\u0027*10}\")\nmy_array \u003d np.arange(10)\nprint(my_array[my_array%2 \u003d\u003d 0])",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 18:07:23.720",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "---------- convert single dimention to multi dimention array ----------\n[[0 1 2 3 4]\n [5 6 7 8 9]]\n---------- slice array ----------\n[2 3]\n---------- filter ----------\n[0 2 4 6 8]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533988222279_1782289019",
+      "id": "20180811-172022_825927871",
+      "dateCreated": "2018-08-11 17:20:22.279",
+      "dateStarted": "2018-08-11 18:07:23.727",
+      "dateFinished": "2018-08-11 18:07:23.737",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n**Matric Operations**",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 18:08:18.632",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003e\u003cstrong\u003eMatric Operations\u003c/strong\u003e\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533991083270_579079969",
+      "id": "20180811-180803_33666225",
+      "dateCreated": "2018-08-11 18:08:03.270",
+      "dateStarted": "2018-08-11 18:08:18.633",
+      "dateFinished": "2018-08-11 18:08:18.639",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\nprint(f\"{\u0027-\u0027*10} dot product {\u0027-\u0027*10}\")\nfirst_matrix \u003d np.arange(10).reshape(2,5)\nsecond_matrix \u003d np.arange(10).reshape(5,2)\nprint( np.dot(first_matrix, second_matrix) )\n\nprint(f\"{\u0027-\u0027*10} sum {\u0027-\u0027*10}\")\nprint(first_matrix)\nprint(first_matrix.sum())\nprint(first_matrix.sum(axis\u003d0)) # sum by column axis\nprint(first_matrix.sum(axis\u003d1)) # sum by row axis",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 18:12:36.564",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "---------- dot product ----------\n[[ 60  70]\n [160 195]]\n---------- sum ----------\n[[0 1 2 3 4]\n [5 6 7 8 9]]\n45\n[ 5  7  9 11 13]\n[10 35]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533990193346_2103816804",
+      "id": "20180811-175313_1632246485",
+      "dateCreated": "2018-08-11 17:53:13.346",
+      "dateStarted": "2018-08-11 18:12:36.571",
+      "dateFinished": "2018-08-11 18:12:36.580",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n* new_array \u003d my_array.view() - Shallow copy as pointer\n* new_array \u003d np.copy_my_array) - Deep copy \n* np.append\n* np.insert ( array, obj-slice of sequence of ints )\n* np.concatenate( (first_array, second_array), axis\u003d0 )\n* np.hstack( first_array, second_array ) - horizontal stack\n* np.vstack( first_array, second_array ) - vertical stack\n* np.reshape()\n* np.ravel( ) -\u003e flaten multi dimentional array into vector\n* np.fliplr -\u003e flip values on last index\n* np.flipup -\u003e flip values on first index\n* np.roll( matrix, num_elements)\n* np.transpose( matrix )\n* np.repeat / np.tile\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 22:19:31.116",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cul\u003e\n  \u003cli\u003enew_array \u003d my_array.view() - Shallow copy as pointer\u003c/li\u003e\n  \u003cli\u003enew_array \u003d np.copy_my_array) - Deep copy\u003c/li\u003e\n  \u003cli\u003enp.append\u003c/li\u003e\n  \u003cli\u003enp.insert ( array, obj-slice of sequence of ints )\u003c/li\u003e\n  \u003cli\u003enp.concatenate( (first_array, second_array), axis\u003d0 )\u003c/li\u003e\n  \u003cli\u003enp.hstack( first_array, second_array ) - horizontal stack\u003c/li\u003e\n  \u003cli\u003enp.vstack( first_array, second_array ) - vertical stack\u003c/li\u003e\n  \u003cli\u003enp.reshape()\u003c/li\u003e\n  \u003cli\u003enp.ravel( ) -\u0026gt; flaten multi dimentional array into vector\u003c/li\u003e\n  \u003cli\u003enp.fliplr -\u0026gt; flip values on last index\u003c/li\u003e\n  \u003cli\u003enp.flipup -\u0026gt; flip values on first index\u003c/li\u003e\n  \u003cli\u003enp.roll( matrix, num_elements)\u003c/li\u003e\n  \u003cli\u003enp.transpose( matrix )\u003c/li\u003e\n  \u003cli\u003enp.repeat / np.tile\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533991177377_-1185480988",
+      "id": "20180811-180937_1245080197",
+      "dateCreated": "2018-08-11 18:09:37.377",
+      "dateStarted": "2018-08-11 22:19:31.117",
+      "dateFinished": "2018-08-11 22:19:31.129",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\nprint( np.random.standard_normal(10) ) # standard normal distribution",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 22:18:06.609",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "[ 1.23719543  2.37668332 -1.50841746  0.8592743   0.07928129  0.43544063\n -0.18168275 -0.82047525  0.78579546  1.70680509]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1534006040494_420605888",
+      "id": "20180811-221720_1855603293",
+      "dateCreated": "2018-08-11 22:17:20.494",
+      "dateStarted": "2018-08-11 22:17:41.027",
+      "dateFinished": "2018-08-11 22:17:41.036",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n**NumPy Date**",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 22:22:41.965",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003e\u003cstrong\u003eNumPy Date\u003c/strong\u003e\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1534006336299_1907529188",
+      "id": "20180811-222216_1629917574",
+      "dateCreated": "2018-08-11 22:22:16.299",
+      "dateStarted": "2018-08-11 22:22:41.966",
+      "dateFinished": "2018-08-11 22:22:41.972",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\nimport numpy as np\nprint(\"Date {} Type {}\".format(np.datetime64(\u00272018\u0027),type(np.datetime64(\u00272018\u0027))))\nprint(\"Date Month {}\".format(np.datetime64(\u00272018-01\u0027)))\nprint(\"Date Month \u0026 Time {}\".format(np.datetime64(\u00272018-01-01 12:00:00+0530\u0027)))\nprint(\"Date Month \u0026 Time {}\".format(np.datetime64(\u00272018-01-01 12:00:00+0530\u0027) + np.timedelta64(5,\u0027D\u0027)) )\nprint(\"Date Range : {}\".format( np.arange( np.datetime64(\"2018-01-01\"), np.datetime(\"2018-01-05\") )))",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 22:35:47.585",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Date 2018 Type \u003cclass \u0027numpy.datetime64\u0027\u003e\nDate Month 2018-01\nDate Month \u0026 Time 2018-01-01T06:30:00\nDate Month \u0026 Time 2018-01-06T06:30:00\nDate Range : [\u00272018-01-01\u0027 \u00272018-01-02\u0027 \u00272018-01-03\u0027 \u00272018-01-04\u0027]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1534006061016_-906901622",
+      "id": "20180811-221741_1378140701",
+      "dateCreated": "2018-08-11 22:17:41.016",
+      "dateStarted": "2018-08-11 22:28:58.054",
+      "dateFinished": "2018-08-11 22:28:58.062",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-11 22:23:15.596",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1534006395596_-1607960755",
+      "id": "20180811-222315_1182743805",
+      "dateCreated": "2018-08-11 22:23:15.596",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Python/002-NumPy",
+  "id": "2DPVGR1KK",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "md:shared_process": [],
+    "python:shared_process": [],
+    "sh:shared_process": [],
+    "spark:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
